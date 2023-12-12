@@ -1,0 +1,41 @@
+{
+  "name": "vidly-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --setupFiles=dotenv/config --coverage --detectOpenHandles --maxWorkers=1",
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "v20.9.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0",
+    "joi": "^17.11.0",
+    "joi-objectid": "^4.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.2",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-n": "^16.3.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "jest": "^29.7.0",
+    "jest-mock": "^29.7.0",
+    "supertest": "^6.3.3"
+  },
+  "description": ""
+}
